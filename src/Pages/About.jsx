@@ -1,4 +1,4 @@
-import aboutimg from "../assets/About.JPG";
+import aboutimg from "../assets/about.JPG";
 import { useNavigate } from "react-router-dom";
 
 const About = () => {
@@ -6,8 +6,6 @@ const About = () => {
 
   return (
     <div className="min-h-screen flex flex-col md:flex-row items-center justify-around px-4 py-10">
-      
-      {/* Left Side - Image (Only visible on md and above) */}
       <div className="hidden md:block">
         <img
           src={aboutimg}

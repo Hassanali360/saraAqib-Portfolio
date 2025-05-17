@@ -1,0 +1,24 @@
+ <div className="flex lg:justify-around items-center min-h-screen px-4 flex-col lg:flex-row  ">
+      
+      {/* Left Side - Text Section */}
+      <div className="flex flex-col justify-center items-center space-y-4 w-1/2">
+        
+        <div className="text-secondary text-[25px]">Authenticity | Creativity | Sustainability</div>
+       
+        <p className='text-center text-[15px] mb-6'>I am a passionate Sustainability Creative Manager with a strong background in creative direction, storytelling, and environmental impact within the entertainment industry. With a deep commitment to sustainable practices, I specialize in crafting narratives that not only engage audiences but also inspire positive change for a greener tomorrow.</p>
+        <button className='px-[30px] py-1 bg-primary text-white rounded-lg font-bold text-[20px]'>
+    Book a Coffee Chat</button>
+  </div>
+
+      {/* Right Side - Image */}
+      <div>
+        <img 
+          src={heroimg} 
+          width={500} 
+          height={500} 
+          className="rounded-lg object-cover" 
+          alt="Hero Section" 
+        />
+      </div>
+
+    </div>

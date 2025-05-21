@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import isbimg from "../assets/istBimg.JPG"
-const SectionBlock = ({ title, children, modalContent, openModal, bgColor = 'bg-blue-500' }) => (
-  <div className={`${bgColor} w-full max-w-[600px] rounded-lg flex flex-col justify-between text-white text-xl font-bold p-4 h-[350px]`}>
+const SectionBlock = ({ title, children, modalContent, openModal,  }) => (
+  <div className={`bg-secondary w-full max-w-[600px] rounded-lg flex flex-col justify-between text-white text-xl font-bold p-4 h-[350px]`}>
     <div className="flex flex-col justify-center items-center h-[70%] text-center overflow-hidden">
       <h4 className="text-2xl font-bold mb-2">{title}</h4>
       <p className="text-base font-medium line-clamp-6">{children}</p>
@@ -11,7 +11,7 @@ const SectionBlock = ({ title, children, modalContent, openModal, bgColor = 'bg-
       <div className="mt-4 w-full flex justify-center">
         <button
           onClick={() => openModal(title, modalContent)}
-          className="px-4 py-4 bg-white text-blue-500 rounded-lg font-bold text-base hover:bg-gray-200 transition"
+          className="px-4 py-4 bg-white text-black border-0 rounded-lg font-bold text-base hover:bg-gray-200 transition"
           aria-label={`Read more about ${title}`}
         >
           More
@@ -21,7 +21,7 @@ const SectionBlock = ({ title, children, modalContent, openModal, bgColor = 'bg-
   </div>
 );
 
-const VideoCard = ({ title, imageSrc, bgColor = 'bg-blue-500' }) => (
+const VideoCard = ({ title, imageSrc, bgColor = 'bg-secondary ' }) => (
   <div className={`${bgColor} w-full max-w-[600px] h-[250px] sm:h-[300px] md:h-[350px] rounded-lg flex items-center justify-center overflow-hidden`}>
     <img
       src={imageSrc}
@@ -102,7 +102,7 @@ And to myself—for not giving up.`,
       <div className="w-full bg-secondary px-5 py-5 mt-3 rounded-xl rounded-br-[100px]">
         <h1 className="text-2xl sm:text-3xl font-bold text-primary mb-4 mt-5 text-center">My Portfolio</h1>
         <p className="text-base sm:text-lg mb-8 text-center font-medium rounded-br-3xl">
-          Results-driven energy professional with expertise in building energy efficiency, decarbonization, and thermal energy storage...
+         Results-driven energy professional with expertise in building energy efficiency, decarbonization, and thermal energy storage, committed to driving sustainable solutions through innovative design, data-driven strategies, and cross-functional collaboration. Experienced in leading projects that reduce carbon footprints, optimize energy performance, and promote environmental stewardship in commercial and residential buildings.
         </p>
       </div>
 

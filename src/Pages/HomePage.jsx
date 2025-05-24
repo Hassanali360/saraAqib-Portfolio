@@ -30,8 +30,8 @@ const HomePage = () => {
           </p>
 
           <div className='mt-4 md:flex md:gap-4'>
-            <button className='px-[30px] py-2 bg-primary text-white rounded-lg font-bold text-[18px] hover:bg-slate-400'>
-              Book a Coffee Chat
+            <button  className='px-[30px] py-2 bg-primary text-white rounded-lg font-bold text-[18px] hover:bg-slate-400'>
+              <a href="https://topmate.io/sarasultanaqib">Book a Coffee Chat</a>
             </button>
           </div>
         </div>

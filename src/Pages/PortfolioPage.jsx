@@ -195,7 +195,7 @@ And to myself—for not giving up.`,
       <div className="flex items-center justify-center mt-2 mb-5">
         <a href="#" rel="noopener noreferrer">
           <button className="px-[35px] py-2 bg-primary text-white rounded-lg font-bold text-[20px] hover:bg-slate-400">
-            Subscribe To My Newsletter
+            <a href="https://sarasultanaqib.substack.com/subscribe">Subscribe To My Newsletter</a>
           </button>
         </a>
       </div>

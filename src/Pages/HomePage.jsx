@@ -21,16 +21,15 @@ const HomePage = () => {
         <div className="flex flex-col justify-center items-center space-y-4 w-full md:w-1/2 text-white md:text-black text-center md:text-left">
           <h1 className="text-[40px] md:text-[60px] font-bold text-primary">Sara Sultan</h1>
           <div className="text-secondary text-[20px] md:text-[25px]">
-            Authenticity | Creativity | Sustainability
+           Sustainability | Creative Storytelling | Leadership
           </div>
 
-          <p className='text-[16px] md:text-[18px] px-2 md:px-0'>
-            I am a passionate Sustainability Creative Manager with a strong background in
-            creative direction, storytelling, and environmental impact within the entertainment industry.
+          <p className='text-[16px] md:text-[18px] px-2 md:px-0 text-center'>
+           I am a passionate Sustainability Scientist and Manager with a strong background in creative direction, storytelling, and environmental impact.
           </p>
 
           <div className='mt-4 md:flex md:gap-4'>
-            <button  className='px-[30px] py-2 bg-primary text-white rounded-lg font-bold text-[18px] hover:bg-slate-400'>
+            <button  className='px-[30px] py-2 bg-primary text-white rounded-lg font-bold text-[18px] hover:bg-secondary'>
               <a href="https://topmate.io/sarasultanaqib">Book a Coffee Chat</a>
             </button>
           </div>

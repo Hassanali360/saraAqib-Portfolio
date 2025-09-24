@@ -21,16 +21,18 @@ const About = () => {
         <h1 className="text-[40px] md:text-[60px] font-bold text-primary">About Me</h1>
 
         <p className="text-[16px] md:text-[18px] text-gray-800">
-          I hold a <span className="text-primary font-bold">Ph.D. in Energy Sciences</span> with a minor in Energy Leadership, focusing on clean energy solutions that bridge research, policy, and business. My goal is to lead transformative initiatives that benefit both <span className="text-primary font-bold">people and the planet.</span>
+         I led projects and multidisciplinary teams at  <span className="text-primary font-bold"> Oak Ridge National Laboratory and California Energy Commission</span> where I focused on clean energy solutions for sustainable buildings to bridge research, with policy and market transformation. I graduated with distinction from my <span className="text-primary font-bold">Ph.D. in Energy Sciences and Engineering</span>
           <br /><br />
-          I mentor future innovators, collaborate across disciplines, and bring expertise in decarbonization, phase change materials, and smart energy systems.
-          <br /><br />
-          I also specialize in science communication, public speaking, and leadership, with honors like <span className="text-primary font-bold"> UTK "40 Under 40" and ACEEE Linda Latham Scholar.</span>  
-        </p>
+           with minor in Entrepreneurship, Policy and Science Writing. 
+My goal is to lead impactful initiatives that benefit both people and the planet.
+
+          <br /><br />I found my passion in <span className="text-primary font-bold">mentoring and storytelling</span> which led me to start my blog on intentional living, a coaching academy, a podcast and personal brand. I mentor future innovators and scientists, collaborate across disciplines, and translate the impact through creative videos, sustainable products, and policy advocacy. 
+
+<br />As a public speaker, and leader, I have been named <span className="text-primary font-bold"> UTK "40 Under 40" and ACEEE Linda Latham Scholar. </span>   I have also received the highest priority extraordinary ability Einstein visa; EB1A.</p>
 
         <button
           onClick={() => navigate("/portfolio")}
-          className="px-[30px] py-2 bg-primary text-white rounded-lg font-bold text-[18px] hover:bg-slate-400"
+          className="px-[30px] py-2 bg-primary text-white rounded-lg font-bold text-[18px] hover:bg-secondary"
         >
           Visit My Portfolio
         </button>

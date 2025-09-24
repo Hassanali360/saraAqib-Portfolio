@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#008080',      // Ocean Teal
-        secondary: '#A2D5C4',    // Mint Green (darker)
+        primary: '#31402E',      // Ocean Teal
+        secondary: '#AAB39A',    // Mint Green (darker)
         accent: '#F77F4A',       // Coral Peach
         body: '#2B2D42',         // Deep Charcoal
       },

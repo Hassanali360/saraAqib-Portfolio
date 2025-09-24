@@ -7,8 +7,9 @@ import tennes from "../assets/tennes.jpeg";
 import heatpump from "../assets/heatpump.jpg";
 import aok from "../assets/aok.jpeg";
 import bredsesen from "../assets/bredesen.jpeg";
+import usaedu from "../assets/usaedu.webp"
 
-const logos = [enegylogo, ace, impel, nust, tennes, heatpump, aok, bredsesen];
+const logos = [enegylogo, ace, impel, nust, tennes, heatpump, aok, bredsesen, usaedu];
 
 const Featuredby = () => {
   return (

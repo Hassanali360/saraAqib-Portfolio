@@ -102,12 +102,12 @@ And to myself—for not giving up.`,
       <div className="w-full bg-secondary px-5 py-5 mt-3 rounded-xl rounded-br-[100px]">
         <h1 className="text-2xl sm:text-3xl font-bold text-primary mb-4 mt-5 text-center">My Portfolio</h1>
         <p className="text-base sm:text-lg mb-8 text-center font-medium rounded-br-3xl">
-         Results-driven energy professional with expertise in building energy efficiency, decarbonization, and thermal energy storage, committed to driving sustainable solutions through innovative design, data-driven strategies, and cross-functional collaboration. Experienced in leading projects that reduce carbon footprints, optimize energy performance, and promote environmental stewardship in commercial and residential buildings.
-        </p>
+         Results-driven energy scientist passionate about international living and creative storytelling. My Ph.D. forced me to nurture my interests and question my existence. What started as a hobby, grew into an ambitious community and later personal brand. I share my ideas of intentional life, sustainable travel, meaningful career, and passion driven businesses. I mentor young aspirants and inspire my audience through blogs and cinematography. Currently writing a self help travel memoir to share my academic and immigration journey.
+         </p>
       </div>
 
       <div className="py-8">
-        <h3 className="text-2xl sm:text-3xl text-center py-8 text-accent font-extrabold">International Living</h3>
+        <h3 className="text-2xl sm:text-3xl text-center py-8 text-[#5D3A58] font-extrabold">Intentional Living</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-items-center">
           {sections.map((section, index) => (
             <SectionBlock
@@ -158,14 +158,14 @@ And to myself—for not giving up.`,
 
       <div className="flex items-center justify-center mt-2">
         <a href="/downloads/My-Guide.pdf" download="My-Guide.pdf" rel="noopener noreferrer">
-          <button className="px-[35px] py-2 bg-primary text-white rounded-lg font-bold text-[20px] hover:bg-slate-400">
+          <button className="px-[35px] py-2 bg-primary text-white rounded-lg font-bold text-[20px] hover:bg-secondary">
             Download My Guide
           </button>
         </a>
       </div>
 
       <div className="py-8">
-        <h3 className="text-2xl sm:text-3xl text-center py-8 text-accent font-extrabold">Hobbies</h3>
+        <h3 className="text-2xl sm:text-3xl text-center py-8 text-[#5D3A58] font-extrabold">Hobbies</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-items-center">
           <SectionBlock title="Photography" bgColor="bg-green-500">
             Passionate about capturing moments through a lens.
@@ -173,13 +173,13 @@ And to myself—for not giving up.`,
           <VideoCard
             title="Photography Hobby"
             videoUrl="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ"
-            bgColor="bg-green-500"
+            bgColor=""
           />
         </div>
       </div>
 
       <div className="py-8">
-        <h3 className="text-2xl sm:text-3xl text-center py-8 text-accent font-extrabold">Self Discoveries</h3>
+        <h3 className="text-2xl sm:text-3xl text-center py-8 text-[#5D3A58] font-extrabold">Self Discoveries</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-items-center">
           <SectionBlock title="Overcoming Fear" bgColor="bg-red-500">
             Learning to face challenges and grow stronger.
@@ -187,14 +187,14 @@ And to myself—for not giving up.`,
           <VideoCard
             title="Overcoming Fear"
             videoUrl="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ"
-            bgColor="bg-red-500"
+            bgColor=""
           />
         </div>
       </div>
 
       <div className="flex items-center justify-center mt-2 mb-5">
         <a href="#" rel="noopener noreferrer">
-          <button className="px-[35px] py-2 bg-primary text-white rounded-lg font-bold text-[20px] hover:bg-slate-400">
+          <button className="px-[35px] py-2 bg-primary text-white rounded-lg font-bold text-[20px] hover:bg-secondary">
             <a href="https://sarasultanaqib.substack.com/subscribe">Subscribe To My Newsletter</a>
           </button>
         </a>
